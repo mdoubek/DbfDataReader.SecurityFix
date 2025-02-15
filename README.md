@@ -1,11 +1,19 @@
-# DbfDataReader
+# DbfDataReader.SecurityFix
 
-[![CI](https://github.com/yellowfeather/DbfDataReader/actions/workflows/ci.yml/badge.svg)](https://github.com/yellowfeather/DbfDataReader/actions/workflows/ci.yml)
-[![NuGet](https://img.shields.io/nuget/dt/DbfDataReader.svg)](https://www.nuget.org/packages/DbfDataReader) 
-[![NuGet](https://img.shields.io/nuget/vpre/DbfDataReader.svg)](https://www.nuget.org/packages/DbfDataReader)
-[![MyGet Build Status](https://www.myget.org/BuildSource/Badge/dbfdatareader?identifier=54ae0096-55d5-418c-8eb9-54a35df720fb)](https://www.myget.org/)
+[![NuGet](https://img.shields.io/nuget/dt/DbfDataReader.SecurityFix.svg)](https://www.nuget.org/packages/DbfDataReader.SecurityFix)  
+[![NuGet](https://img.shields.io/nuget/vpre/DbfDataReader.SecurityFix.svg)](https://www.nuget.org/packages/DbfDataReader.SecurityFix)  
 
-DbfDataReader is a small fast .Net Core library for reading dBase, xBase, Clipper and FoxPro database files
+**DbfDataReader.SecurityFix** is a **security-patched version** of [DbfDataReader](https://github.com/yellowfeather/DbfDataReader).  
+This version **fixes vulnerabilities** in `System.Text.RegularExpressions`, ensuring safer processing of DBF (dBase) database files.  
+
+---
+
+## ** Installation**
+You can install this package via NuGet:
+
+```powershell
+dotnet add package DbfDataReader.SecurityFix --version 2.0.1
+
 
 Usage, to get summary info:
 
